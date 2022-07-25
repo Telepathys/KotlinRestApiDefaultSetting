@@ -1,0 +1,12 @@
+spring.security.user.name: sergey
+spring.security.user.password: sergey
+spring.security.user.roles: manager
+spring.devtools.livereload.enabled: true
+spring.devtools.restart.enabled: true
+
+springdoc:
+  show-actuator: true
+  #  use-management-port: true
+  swagger-ui:
+    displayOperationId: true
+    enabled: true
