@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  test:
+    image : default_setting/kotlin_api:latest
+    build : ./
+    privileged: true
+    restart: always
+    ports:
+      - "8080:8080"
